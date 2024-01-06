@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .down-margin {
+    margin-bottom: 37px;
+  }
+  
+  .right-margin {
+    margin-right: 15px;
+  }
+  
+  .icon-color {
+    color:rgb(250, 210, 217);;
+  }
+  
+  .outer-wrapper {
+    
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(to right, #e49898,#02111d); 
+    flex-wrap: wrap;
+    
+  }
+  
+  .musicplayer {
+
+    border-radius: 50%;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    border: 3px solid #21282c;
+    box-shadow: 5px 10px 5px rgb(227, 183, 190);
+    
+    flex-direction: column;
+    color:rgb(250, 210, 217);
+  }
+  
+  .musicinfo {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .music-info {
+    color:rgb(250, 210, 217);
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .music-icons-wrapper {
+    width: 100%;
+  }
+  
+  .music-icons {
+    justify-content: space-around;
+  }
+  
+  .playpausebtn i {
+    color: rgb(250, 210, 217);
+    cursor: pointer;
+  }
+  
+  .previousbtn {
+    color: rgb(250, 210, 217);
+    cursor: pointer;
+  }
+  
+  .nextbtn {
+    color: rgb(250, 210, 217);
+    cursor: pointer;
+  }
+  
